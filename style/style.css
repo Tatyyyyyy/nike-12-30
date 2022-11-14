@@ -44,7 +44,31 @@ ul {
 
 /* krossi */
 /* just */
-
+.just {
+    background: url(../images/just.jpg) no-repeat center /cover;
+    height: 557px;
+    position: relative;
+    
+}
+.just__content {
+    background: rgba(186, 186, 186, 0.5);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 20px 0 20px;
+    position: absolute;
+    left: 50px;
+}
+.just__content-title {
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 
 
