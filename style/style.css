@@ -38,9 +38,65 @@ ul {
 
 /* procuts */
 /* krossi */
+.krossi__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    background: #EBEBEB;
+    padding: 31px 16px 40px 16px;
+    
+}
+.krossi__item-img {
+   display: block;
+   width: 100%; 
+}
+.krossi__item {
+    width: 25%;
+}
+.krossi__item-box {
+    padding: 15px;
+    background: #FFFFFF;
 
+}
 
-
+.krossi__item-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.krossi__item-text {
+    color: #6A6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+.krossi__item-pricebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.krossi__item-buy {
+    background: #DFC900;
+    border-radius: 3px;
+    color: #050505;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: 223px;
+    padding: 11px 0;
+    text-align: center;
+}
+.krossi__item-price {
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
 
 /* krossi */
 /* just */
